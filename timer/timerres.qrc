@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/icon.png</file>
+        <file>img/icon128.png</file>
+        <file>img/icon256.png</file>
+        <file>img/ntlogo192.png</file>
+    </qresource>
+</RCC>

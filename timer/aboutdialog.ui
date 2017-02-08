@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>277</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>About Timer</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="25,75">
+     <item>
+      <widget class="QLabel" name="labelLogo">
+       <property name="text">
+        <string>Logo</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelProgName">
+       <property name="text">
+        <string>&lt;b&gt;Timer v1.0a&lt;/b&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayoutLicense">
+     <item>
+      <widget class="QLabel" name="labelLicensing">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;© Copyright 2017, Josh Verdi, Neurone Touch Lab.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Madagascar based team.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;This program comes with absolutely no warranty. &lt;br/&gt;See the &lt;a href=&quot;http://www.gnu.org/licenses/gpl-3.0.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;GNU Public License, version 3 or later&lt;/span&gt;&lt;/a&gt; for details.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::RichText</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labelNtLogo">
+       <property name="text">
+        <string>NT Logo</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButtonClose">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
